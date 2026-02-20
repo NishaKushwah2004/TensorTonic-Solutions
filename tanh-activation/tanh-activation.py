@@ -6,5 +6,5 @@ def tanh(x):
     """
     # Write code here
     x = np.asarray(x,dtype=float)
-    return (np.exp(x) - np.exp(-x))/(np.exp(x) + np.exp(-x))
+    return np.tanh(x)
     pass
