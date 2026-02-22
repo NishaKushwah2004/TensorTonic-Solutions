@@ -16,4 +16,5 @@ def dot_product(x, y):
         raise ValueError("Arrays must have the same length.")
 
     return float(np.sum(x*y))
+    # return np.dot(x,y)
     pass
