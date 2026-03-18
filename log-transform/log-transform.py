@@ -4,4 +4,7 @@ def log_transform(values):
     Apply the log1p transformation to each value.
     """
     # Write code here
-    return [math.log1p(v) for v in values]
+    result = []
+    for v in values:
+        result.append(math.log(1+v))
+    return result
